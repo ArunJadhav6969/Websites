@@ -1,0 +1,141 @@
+body {
+    background: #f2f2f2;
+}
+
+.home-page-area {
+    background: url(../images/home_bg.png) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+}
+
+.home-page-area .col-md-12 {
+    margin-top: 18rem;
+}
+
+.home-page-area:before {
+    content: '';
+    position: absolute;
+    background: #0006;
+    width: 100%;
+    height: 99.8vh;
+    right: 0;
+}
+
+.button-area {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 800px;
+    height: 100px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    padding: 2rem 0;
+    border-radius: 2rem;
+    box-shadow: 0 0 8px #f9255d78;
+}
+
+.button-area:hover {
+    box-shadow: 0 0 18px #1b1819f5;
+    transition: .5s all;
+}
+
+.button-area .btn-primary {
+    min-width: 150px;
+    border-radius: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #f9255d;
+    border: none;
+    transition: .5s all;
+}
+
+.button-area .btn-primary:hover {
+    background: #173e43;
+    transition: .3s all;
+}
+
+.breadcrumb {
+    background: #f9255d;
+    border-radius: none;
+    margin: 2rem 0;
+}
+
+.breadcrumb a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.breadcrumb-item.active {
+    color: #173e43;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.breadcrumb-item+.breadcrumb-item::before,
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '>'!important;
+    color: #fff;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 0 8px #00000052;
+    padding: 2rem;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #173e43;
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #8c8c8c47;
+    border-radius: 2px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #f9255d;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+.form-button-area {
+    margin-top: 2rem;
+}
+
+.form-button-area .btn {
+    min-width: 150px;
+    border-radius: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    transition: .5s all;
+}
+
+.form-button-area .btn-primary {
+    background: #f9255d;
+}
+
+.form-button-area .btn:hover {
+    background: #173e43;
+    transition: .3s all;
+}
